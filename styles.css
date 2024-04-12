@@ -1,0 +1,180 @@
+/* Base */
+body {
+    background-color: #000000;
+    color: #00FF00;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px; /* Increase font size by 2 from the base, assuming the base was 16px */
+}
+
+/* UI Components */
+button, input, select {
+    background-color: #001a00;
+    color: #00FF00;
+    border: 1px solid #003300;
+}
+
+button:hover, input:hover, select:hover {
+    background-color: #002200;
+}
+
+/* Toggle Button */
+.toggle-button {
+    background-color: #002200;
+    border: 2px solid #00FF00;
+}
+
+.toggle-button.active {
+    background-color: #00FF00;
+    color: #000000;
+}
+
+/* File Management and Chat Panes */
+.pane {
+    border: 1px solid #004d00;
+    padding: 10px;
+    margin-top: 10px;
+    flex: 1; /* Each pane will grow to fill the available space */
+    min-width: 200px; /* Minimum width for each pane, adjust as needed */
+    max-width: calc(50% - 10px); /* Maximum width for each pane, accounting for the gap */
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #006600;
+}
+
+.pane-header {
+    color: #00FF00; /* Neon green text to match the theme */
+    margin-bottom: 10px; /* Spacing between the header and the file items */
+}
+
+/* File List Items */
+.file-item {
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #003300;
+    background-color: #001a00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: grab; /* Indicates item is draggable */
+}
+
+.file-item:last-child {
+    margin-bottom: 0; /* Remove margin for the last item */
+}
+
+.file-item.dragging {
+    opacity: 0.5;
+    border-style: dashed; /* Visual cue for dragging */
+    cursor: grabbing; /* Indicates item is being dragged */
+}
+
+.file-checkbox {
+    margin-right: 10px;
+}
+
+.file-label {
+    flex-grow: 1;
+    user-select: none; /* Prevent text selection while dragging */
+}
+
+/* CSS in styles.css */
+.chat-display div {
+    margin-bottom: 0.5em; /* Adjust the value to control the separation between paragraphs */
+}
+
+#file-management-interface {
+    display: flex;
+    flex-wrap: wrap; /* Allows panes to wrap into the next line if the container's width is too small */
+    gap: 10px; /* Space between panes */
+}
+
+/* CSS to make <pre> text wrap */
+.pre-wrap {
+    white-space: pre-wrap; /* Allows text to wrap */
+    word-wrap: break-word; /* Breaks words at the end of the line */
+}
+
+/* Styling for player messages */
+.pc {
+    background-color: #003300; /* Dark green background */
+    color: #CCFFCC; /* Light green text */
+    padding: 10px;
+    margin-bottom: 10px; /* Space between messages */
+    border-radius: 5px; /* Rounded corners for the message bubble */
+    border: 1px solid #00FF00; /* Neon green border */
+    box-shadow: 0 2px 5px rgba(0, 255, 0, 0.2); /* Subtle shadow for some depth */
+    max-width: 80%; /* Maximum width of message */
+    word-wrap: break-word; /* Ensure long words do not break the layout */
+}
+
+/* Styling for gamemaster messages */
+.gm {
+    background-color: #000033; /* Dark blue background */
+    color: #CCCCFF; /* Light blue text */
+    padding: 10px;
+    margin-bottom: 10px; /* Space between messages */
+    border-radius: 5px; /* Rounded corners for the message bubble */
+    border: 1px solid #3333FF; /* Blue border */
+    box-shadow: 0 2px 5px rgba(0, 0, 255, 0.2); /* Subtle shadow for some depth */
+    max-width: 80%; /* Maximum width of message */
+    word-wrap: break-word; /* Ensure long words do not break the layout */
+    margin-left: auto; /* Align GM messages to the right */
+    margin-right: 0;
+}
+
+/* If you want to ensure that the player's messages are aligned to the left */
+.pc {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+/* Input Text Field Styling */
+.chat-input {
+    background-color: #333333; /* Dark grey background */
+    color: #00FF00; /* Bright green text */
+    border: 1px solid #005500; /* Dark green border */
+    padding: 10px; /* Padding inside the input field for better text visibility */
+    width: 60%; /* Set the width to 60% of its container */
+    margin: 0 auto; /* Center the input field */
+    display: block; /* Ensure it's a block element to respect the width and margin */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Removes focus outline */
+.chat-input:focus {
+    outline: none; /* Removes the outline */
+}
+
+/* Additional styles to ensure input field appears well on all devices */
+@media (max-width: 600px) {
+    .chat-input {
+        width: 90%; /* On smaller screens, make the input field wider */
+    }
+}
+
+/* Send Button Styling */
+#send-button {
+    position: absolute; /* Position the button absolutely to the parent */
+    bottom: 10px; /* Position from the bottom of the input field */
+    right: 10px; /* Position from the right of the input field */
+    background-color: #00FF00; /* Bright green background */
+    color: #000000; /* Black text */
+    border: none; /* No border */
+    padding: 5px 10px; /* Padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Ensure the chat-input container is relative for the absolute positioning */
+.chat-input-container {
+    position: relative; /* Sets the position context for the absolute positioning of the button */
+}

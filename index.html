@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your App</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking to your CSS file -->
+</head>
+<body>
+
+    <!-- Toggle Button -->
+    <div id="toggle-container">
+        <button id="toggle-button">Toggle Interface</button>
+    </div>
+
+    <!-- File Management Interface -->
+    <div id="file-management-interface" class="interface">
+        <div class="pane" id="instructions-pane">
+            <h2 class="pane-header">Instructions</h2>
+            <div class="file-listing" id="instructions-listing"></div> <!-- Dedicated container for files -->
+        </div>
+        <div class="pane" id="transcripts-pane">
+            <h2 class="pane-header">Transcripts</h2>
+            <div class="file-listing" id="transcripts-listing"></div> <!-- Dedicated container for files -->
+        </div>
+        <div class="pane" id="world-pane">
+            <h2 class="pane-header">World Data</h2>
+            <div class="file-listing" id="world-listing"></div> <!-- Dedicated container for files -->
+        </div>        
+        <div class="pane" id="file-display-pane">
+            <h2>File Content</h2>
+            <!-- File content will be displayed here -->
+        </div>
+    </div>
+
+    <!-- Chat Interface -->
+    <div id="chat-interface" class="interface" style="display:none;">
+        <div id="chat-display" class="chat-display">
+            <!-- Chat transcript will be displayed here -->
+        </div>
+        <textarea id="chat-input" class="chat-input"></textarea> <!-- Multi-line chat input -->
+        <button id="send-button">Send</button>
+    </div>
+
+
+    <script src="renderer.js"></script> <!-- Linking to your JavaScript file -->
+
+
+</body>
+</html>

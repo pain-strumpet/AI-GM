@@ -1,0 +1,19 @@
+{
+  "name": "game-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.2.2",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "python-shell": "^5.0.0"
+  }
+}

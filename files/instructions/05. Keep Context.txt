@@ -1,0 +1,1 @@
+Keep track of what has happened in the game. Aim for consistency between ongoing events and the existing context. Character knowledge can be wrong or confused, incomplete or deceptive, but it should not be inconsistent. In the case of a true discrepancy, work out a reasonable retcon with the player.

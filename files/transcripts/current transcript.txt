@@ -1,0 +1,76 @@
+<PC>I'd like to play a game session of D&amp;D 5e, playing a first-level human fighter named Jubal fighting against a goblin warlord in a one-on-one battle in some interesting location.</PC>|||<GM>&lt;GM&gt;Welcome, brave warrior, to the beginning of your tale. The sun sets over the Crumbling Peaks, painting the sky in shades of molten gold and blood-red. In the shadow of these jagged mountains lies the Warlord's Pit—a natural amphitheater of stone with a reputation soaked in bloodshed.
+
+Here in this arena, infamous for settling disputes and showcasing power among the goblinoid tribes, stands your character, Jubal, a first-level human fighter. Clad in a simple but sturdy set of chainmail and gripping the hilt of his trusty longsword, Jubal surveys his surroundings.
+
+The air thrums with anticipation as the opposing champion makes an entrance. A howl echoes through the Pit as the goblin warlord—a grotesque brute bedecked in scavenged armor and wielding a cruelly-forged axe—steps into view.
+
+Jubal knows the gravity of this combat. Victory may stave off goblin raids on nearby settlements for a generation, or a loss could embolden the goblins further. But this is not just a battle of strength—it is a test of wits and will.
+
+As Jubal squares off against the warlord, the dank wind carries the briny scent of a marsh from beyond the amphitheater, suggesting the Pit is close to a large body of water, and the echo of distant creatures calls adds to the eerie atmosphere. The battle is about to begin.
+
+Initiative must be rolled to determine who shall strike first. Let the dice cast the fates of the combatants.]])
+
+```plaintext
+d20 Roll for Jubal's Initiative: 16
+d20 Roll for Goblin Warlord's Initiative: 9
+```
+
+Jubal finds his focus amidst the bloodlust of the arena and positions himself to strike as soon as the signal for combat is given. With his higher initiative, Jubal is the first to act. What would Jubal like to do?</GM>|||<PC>Attack the goblin with my longsword as many times as I am able!</PC>|||<GM>```plaintext
+d20 Roll for Longsword Attack: 10
+```
+
+&lt;GM&gt;Jubal raises his longsword, the steel catching the last rays of the setting sun, as he charges towards the goblin warlord with a powerful battle cry. He swings the sword in a wide arc aimed at the goblin.
+
+However, the warlord is quick for his brutish appearance, and he manages to raise his scavenged armor in just the nick of time to deflect the blow. The sound of metal on metal rings out in the Pit, but the goblin merely grins, revealing a row of sharp, yellowed teeth.
+
+Unfortunately, as a first-level fighter, Jubal is only able to attack once per action. But there's more to combat than just exchanging blows—if he's resourceful, Jubal may find other ways to gain an advantage as the fight progresses.
+
+It is now the goblin warlord's turn to strike. With a guttural growl, he retaliates with a vicious swing of his own.
+
+```plaintext
+d20 Roll for Goblin Warlord's Axe Attack: 14
+```
+
+The goblin's axe comes down hard towards Jubal, aiming to cleave through defense and flesh alike...
+
+&lt;GM&gt;Please roll for Jubal's Armor Class including any relevant modifiers to see if the attack hits.</GM>|||<PC>I don't believe that AC is the sort of thing we roll for. Unarmored AC starts at 10. Chainmail provides a different Armor Class, and if my Dexterity is high, I get a Dex bonus.</PC>|||<GM>&lt;GM&gt;You are correct, Jubal's Armor Class (AC) is not determined by a roll; it is a calculated value based on his armor and Dexterity modifier. With chainmail, the base AC is 16, and it does not allow for an additional Dexterity bonus.
+
+Given this information, Jubal's AC is a solid 16. The goblin warlord's attack roll was a 14, which means as the axe comes surging towards Jubal, he manages to sidestep just enough for the axe to graze off the rings of his chainmail without finding flesh.
+
+The warlord, thrown slightly off balance by the miss, growls in frustration. Jubal now has a chance to exploit this opening and respond with another action.
+
+What will you do? Continue the attack, attempt a special maneuver, or something else? Remember the environment and your fighter's capabilities; they may provide tactical options.</GM>|||<PC>Let the fight take me to the edge of the fighting pit. If I can dodge the warlord's attack at the right time, his axe might get wedged into the rock, or even break. Parry his attacks as we go.</PC>|||<GM>```plaintext
+d20 Roll for Parry (using an Attack Roll as a proxy for the maneuver): 18
+```
+
+As the battle rages, Jubal deftly maneuvers himself and the goblin warlord toward the edge of the Warlord's Pit. Each exchange of steel is a deadly dance, eyeing for an advantage, both combatants breathing heavily with the exertion.
+
+With a nimble parry that sends sparks flying, Jubal deflects the goblin's next heavy blow. The goblin warlord's axe comes crashing down toward the solid rock at the edge of the pit. The force of the swing, combined with Jubal's calculated parry, is a true test of the weapon's strength.
+
+Let's see if the axe holds up under the pressure or gets lodged into the rock wall.
+
+```plaintext
+d20 Roll for Axe's Fortitude: 7
+```
+
+With a roll of a 7, the axe's integrity buckles under the stress. The warlord's crude weapon smashes into the rock with a resounding crack and the head of the axe snaps, shards of metal skittering across the pit floor.
+
+The goblin warlord stares in disbelief at his broken weapon for a moment, now significantly less of a threat without his primary means of offense. Jubal has gained a significant advantage in this duel. With the goblin momentarily stunned, Jubal has an opening for a critical counter-attack, to disarm, to grapple, or any other action he deems fit.
+
+What will Jubal do next?</GM>|||<PC>Counter-attack, striking to kill.</PC>|||<GM>With the warlord momentarily vulnerable and his weapon in ruins, Jubal sees an opportunity that can't be missed. The time for cautious parries and dodges is over; now is the moment to strike decisively.
+
+Jubal lunges forward, leveraging his weight and training to drive the longsword towards the goblin warlord in a lethal thrust aimed at the creature's exposed torso.
+
+```plaintext
+d20 Roll for Longsword Attack: 20
+```
+
+The sword glides through the air with deadly precision—a natural 20, a critical hit! The crowd gasps as Jubal's blade finds its mark, sinking deep into the goblin warlord's body. 
+
+The force of the blow knocks the goblin off his feet, and he falls backward, his eyes wide with shock. The Pit falls silent but for the goblin's ragged breaths and the drip of blood pooling on the stone. With a final gurgle, the goblin warlord's eyes glaze over, and his body grows still.
+
+Jubal stands victorious in the fading light, his heartbeat loud in his ears. The silence breaks as the spectators, be they near settlements' delegates or hidden creatures of the marsh, acknowledge the human's triumph over the goblin menace.
+
+As Jubal retrieves his sword from the fallen warlord's chest, he knows that his actions this day will have far-reaching consequences—the goblins will surely think twice before raiding the nearby settlements, and his name will be sung by the people he has protected.
+
+What will Jubal do now in the aftermath of this climactic battle? Will he address the crowd, search the warlord for items of note, or perhaps take a moment to honor his vanquished enemy? The Pit, for now, is his to command.</GM>|||
